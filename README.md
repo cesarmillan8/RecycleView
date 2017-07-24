@@ -2,7 +2,7 @@
 
 Tarea semana numero 3, utilizando Recycle View
 
-En esta actividad tus compañeros evaluarán:
+En esta actividad se evaluarán:
 
 1. Que corra el proyecto
 2. DataSet
