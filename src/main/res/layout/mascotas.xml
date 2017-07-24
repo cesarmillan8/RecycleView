@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardViewMascota"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alwaysDrawnWithCache="false"
+            android:elevation="0dp"
+            android:fadingEdge="none"
+            android:orientation="horizontal"
+            android:theme="@style/Base.CardView"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/ivBone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/bonenormal" />
+
+            <TextView
+                android:id="@+id/tvMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/secondaryText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNumero"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="5dp"
+                android:text="5"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/secondaryText"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivBoneDorado"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/bone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
